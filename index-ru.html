@@ -22,7 +22,21 @@
 								<h1 class="name mt-3 mb-1">Константин Щепкин</h1>
 								<p class="job-name mb-0">Руководитель команды QA</p>
 							</div>
-							<div id="contact-info" class="contact-info mt-5 mb-0">
+							<div class="social-icons" id="flags">
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="?lang=en">
+											<img src="assets/images/United-Kingdom.ico" style="width: 15%">
+										</a>
+											<a href="?lang=ru">
+											<img src="assets/images/Russia.ico" style="width: 15%">
+										</a>
+									</li>
+									
+								</ul>
+							</div>
+
+						<div id="contact-info" class="contact-info mt-1 mb-0">
 								<p class="mb-2"><img src="assets/images/phone.svg"><a href="#" class="pl-2">+7 (915) 544-54-04</a></p>
 								<p class="mb-2"><img src="assets/images/envelope.svg"><a href="mailto://konstantin.schepkin@gmail.com" class="pl-1">konstantin.schepkin@gmail.com</a></p>
 
@@ -265,5 +279,22 @@
 		</div>
 	</div>
 	<script src="assets/js/main.js"></script>
+
+	<script>
+		function getQueryStringParameter(name) {
+		  const urlParams = new URLSearchParams(window.location.search);
+		  return urlParams.get(name);
+		}
+	  
+		function redirectToIndexRu() {
+		  const langParam = getQueryStringParameter('lang');
+	  
+		  if (langParam === 'en') {
+			window.location.href = 'index.html';
+		  }
+		}
+	  	redirectToIndexRu();
+	  </script>
+
 </body>
 </html>
