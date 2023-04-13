@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>QA - Konstantin Schepkin</title>
+	<title data-content="me.name"></title>
 	<meta name="robots" content="noindex,nofollow">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -22,8 +22,8 @@
 						<div id="user-info" class="user-info">
 							<div class="about"> <img src="assets/images/me.png"
 									class="profile-pic img-fluid rounded-circle">
-								<h1 class="name mt-3 mb-1">Konstantin Schepkin</h1>
-								<p class="job-name mb-0">Head of QA</p>
+								<h1 class="name mt-3 mb-1" data-content="me.name"></h1>
+								<p class="job mb-0" data-content="me.job"></p>
 							</div>
 							<div class="social-icons" id="flags">
 								<ul class="list-unstyled mb-0">
@@ -40,8 +40,7 @@
 							</div>
 
 							<div id="contact-info" class="contact-info mt-1 mb-0">
-								<p class="mb-2"><img src="assets/images/phone.svg"><a href="#" class="pl-2">+7 (915)
-										544-54-04</a></p>
+								<p class="mb-2"><img src="assets/images/phone.svg"><a href="#" class="pl-2" data-content="me.phone"></a></p>
 								<p class="mb-2"><img src="assets/images/envelope.svg"><a
 										href="mailto://konstantin.schepkin@gmail.com"
 										class="pl-1">konstantin.schepkin@gmail.com</a></p>
@@ -83,11 +82,11 @@
 								</div>
 								<div class=" text-left mb-0">
 									<hr class="bg-danger border-2 border-top border-danger">
-									<li class="mb-0 mt-3 "><a href="#about">About me</a></li>
-									<li class="mb-0"><a href="#education">Education</a></li>
-									<li class="mb-0"><a href="#job">Work experience</a></li>
-									<li class="mb-0"><a href="#tech">Tech</a></li>
-									<li class="mb-0"><a href="#skills">Skills</a></li>
+									<li class="mb-0 mt-3 "><a href="#about" data-content="about.title"></a></li>
+									<li class="mb-0"><a href="#education" data-content="education.title"></a></li>
+									<li class="mb-0"><a href="#job" data-content="workExperience.title"></a></li>
+									<li class="mb-0"><a href="#tech" data-content="tech.title"></a></li>
+									<li class="mb-0"><a href="#skills" data-content="skills.title">Skills</a></li>
 								</div>
 							</div>
 
@@ -104,207 +103,46 @@
 				<main class="content ml-0 ml-md-2 mr-0">
 					<!-- About-->
 					<div id="about" class="section mt-3 mt-md-0 p-3 p-md-5 rounded">
-						<h3 class="mb-3 text-uppercase">About me</h3>
-						<p>
-							Hi!<br>
-							I started my career in IT as an administrator, then several positions in QA, including
-							managing a QA team on several projects.
-							<br>Later worked as a project manager for over a year, I have experience in launching a
-							project into productive operation. Currently interested in Quality Assurance positions.
-							<br>I have applied experience in many types of testing, supervised functional, integration,
-							load and automated testing.
+						<h3 class="mb-3 text-uppercase" data-content="about.title"></h3>
+						<p data-content="about.text">
+							
 						</p>
 					</div>
 
 					<!-- Education-->
 					<div id="education" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
 						<h3 class="mb-2 text-uppercase">Education</h3>
-						<div class="row mt-4 mb-2">
-							<div class="col-12"> <span class="tiny-super">2009 - 2013</span> </div>
-							<div class="col-12"> <span class="tiny-super font-weight-bold">Voronezh State Industrial
-									Humanities College </span>
-								<span class="tiny-super d-block">Department of Computer Engineering, Automated
-									Information Processing and Control Systems</span>
-							</div>
-						</div>
-						<div class="row mt-4 mb-2">
-							<div class="col-12"> <span class="tiny-super">2013 - 2018</span> </div>
-							<div class="col-12"> <span class="tiny-super font-weight-bold">Voronezh State Technical
-									University</span>
-								<span class="tiny-super d-block">Department of Computing Machines, Complexes, Systems
-									and Networks</span>
-							</div>
+						<div class="row mt-4 mb-2" id="education-items">
+							
 
 						</div>
 					</div>
 
 					<!-- Experience-->
 					<div id="job" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
-						<h3 class="mb-3 text-uppercase">Work experience</h3>
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">QA Engeneer</span> <span
-									class="tiny-super d-block">Digital Economy League</span> </div>
-							<div class="col-5 text-right"> <span class="tiny-super">02.2023 - ...</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									The project is related to load testing on the API of a mobile application.<br>
-									Primary responsibilities include:<br>
-									- Preparing documentation<br>
-									- Defining scenarios for testing<br>
-									- Preparing scripts for JMeter<br>
-									- Analyzing test results<br>
-									- Preparation of reporting documentation on the project results.
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Project Manager</span> <span
-									class="tiny-super d-block">Digital Economy League</span> </div>
-							<div class="col-5 text-right"> <span class="tiny-super">2021 - 02.2023</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Managing project scope, prioritizing tasks.
-									Managing a team of 20+ people.
-									Organizing release planning.Conducting working meetings.
-									Planning development/analysis/testing sprints in conjunction with team leaders.
-									Identifying technical causes of possible problems for correct maintenance and fixes.
-									Advising on technical issues, mainly related to infrastructure and quality
-									assurance.
-									Estimating the cost of work based on labor estimates from team leaders.
+						<h3 class="mb-3 text-uppercase" data-content="workExperience.title"></h3>
+						<div class="row mt-4 mb-2" id="work-experience-items">
+							
 
-
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Head of QA</span> <span
-									class="tiny-super d-block">Digital Economy League</span> </div>
-							<div class="col-5 text-right"> <span class="tiny-super">2019 - 2021</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Managing a testing team of 24 people on multiple projects.
-									Preparing testing plan, evaluating and distributing tasks, planning test sprints,
-									planning releases.
-									Preparing test automation plan, evaluating test coverage, code reviews.
-									<br>
-									Load testing:<br>
-									- Analyzing user behavior in Google Analytics<br>
-									- Preparation of scripts<br>
-									- Performing load testing using JMeter.<br>
-
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Lead testing specialist</span>
-								<span class="tiny-super d-block">Digital Economy League</span>
-							</div>
-							<div class="col-5 text-right"> <span class="tiny-super">2018 - 2019</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Test automation using technologies: Java, Selenide/Selenium, Allure, Galen,
-									RestAssured, Appium. Performing load testing using JMeter
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Senior Testing
-									Specialist</span> <span class="tiny-super d-block">Digital Economy League</span>
-							</div>
-							<div class="col-5 text-right"> <span class="tiny-super">2017 - 2018</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Test automation of REST API testing, creation and support of Mock services through
-									SoapUI.
-									Autotest development for web using Selenide, Allure, Jenkins.
-									Autotest development for iOS and Android apps using Serenity framework and Appium
-									platform.
-
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Testing Engineer</span> <span
-									class="tiny-super d-block">RT Labs</span> </div>
-							<div class="col-5 text-right"> <span class="tiny-super">2016 - 2017</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Functional and integration testing of the State Services portal and related modules.
-									Testing of the mobile application "Gosuslugi".
-									Writing test cases.
-									Support of SoapUI mock services.
-
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">Duty System
-									Administrator</span> <span class="tiny-super d-block">RT Labs</span> </div>
-							<div class="col-5 text-right"> <span class="tiny-super">2013 - 2016</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Administration of Linux and windows systems.
-									Monitoring zabbix servers, pNet.
-									Initial troubleshooting.
-									Sanity testing after releases of various systems.
-
-								</p>
-							</div>
-						</div>
-						<hr class="bg-danger border-2 border-top border-danger">
-						<div class="row mt-4 mb-2">
-							<div class="col-7"> <span class="tiny-super font-weight-bold">System Administrator</span>
-								<span class="tiny-super d-block">Ministry of Justice of Russia in the Voronezh
-									region</span>
-							</div>
-							<div class="col-5 text-right"> <span class="tiny-super">2012 - 2013</span> </div>
-							<div class="col-12 mt-2">
-								<p>
-									Maintaining the network infrastructure in working order, installing and configuring
-									the software, maintenance of office equipment, domain system, Microsoft Exchange.
-									Server administration based on WIndows Server.
-
-								</p>
-							</div>
 						</div>
 					</div>
 
 					<!-- Technologies-->
 					<div id="tech" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
-						<h3 class="mb-3 text-uppercase">Tech</h3>
-						<p>This section describes the technologies and tools that I have been working with for a long
-							time.</p>
-						<p><strong>SAP Ecommerce - </strong>platform that allows businesses to create and manage online
-							stores to sell their products and services to customers.</p>
-						<p><strong>Apache JMeter - </strong>popular open-source performance testing tool used to test
-							the performance and scalability of applications, particularly web applications.</p>
-						<p><strong>Postman - </strong>API development and testing tool that allows developers to easily
-							make and manage API requests, view responses, and share and collaborate on API collections
-							with others.</p>
-						<p><strong>Selenide - </strong>is a concise and convenient Java library for writing and running
-							automated tests for web applications, providing a high-level API for writing tests and
-							hiding much of the underlying complexity of web testing.</p>
-						<p><strong>Dynatrace - </strong>software intelligence platform that helps organizations to
-							monitor, analyze, and optimize the performance of their digital ecosystems, including
-							cloud-native applications, multi-cloud infrastructures.</p>
-						<p><strong>Grafana - </strong>data visualization and analytics platform that allows users to
-							create, explore, and share interactive, real-time dashboards and graphs for visualizing and
-							analyzing time-series data from various sources.</p>
+						<h3 class="mb-3 text-uppercase" data-content="tech.title"></h3>
+						<p data-content="tech.text"></p>
+							<div class="row mt-4 mb-2" id="tech-items">
+							
+
+							</div>
 					</div>
 
 					<!-- Skills-->
 					<div id="skills" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
-						<h3 class=" mb-3 text-uppercase">Skills</h3>
+						<h3 class=" mb-3 text-uppercase"data-content="skills.title"></h3>
 						<div class="row">
 							<div class="col-12">
-								<p>This section presents some of the tools I have had the opportunity to work with and
-									an approximate level of mastery of the tool.</p>
+								<p data-content="skills.text"></p>
 							</div>
 							<div class="col-12 col-md-6">
 								<div class="progress mt-4">
@@ -357,24 +195,188 @@
 		</div>
 	</div>
 	<script src="assets/js/main.js"></script>
-	<script>
-		function getQueryStringParameter(name) {
-			const urlParams = new URLSearchParams(window.location.search);
-			return urlParams.get(name);
-		}
+	
 
-		function redirectToIndexRu() {
-			const langParam = getQueryStringParameter('lang');
+<script>
+    const data = {
+        
+                                    en: {
+										me: {
+                                            name: "Konstantin Schepkin",
+                                            job: "Head of QA",
+											phone: "+7 (915) 544-54-04"
+                                        },
+                                        about: {
+                                            title: "About me",
+                                            text: "Hi! I started my career in IT as an administrator, then several positions in QA, including managing a QA team on several projects. Later worked as a project manager for over a year, I have experience in launching a project into productive operation. Currently interested in Quality Assurance positions. I have applied experience in many types of testing, supervised functional, integration, load and automated testing."
+                                        },
+                                        education: {
+                                            title: "Education",
+                                            items: [
+                                                {
+                                                    years: "2009 - 2013",
+                                                    school: "Voronezh State Industrial Humanities College",
+                                                    department: "Department of Computer Engineering, Automated Information Processing and Control Systems"
+                                                },
+                                                {
+                                                    years: "2013 - 2018",
+                                                    school: "Voronezh State Technical University",
+                                                    department: "Department of Computing Machines, Complexes, Systems and Networks"
+                                                }
+                                            ]
+                                        },
+                                        workExperience: {
+                                            title: "Work experience",
+                                            items: [
+                                                {
+                                                    position: "Project Manager",
+                                                    company: "Digital Economy League",
+                                                    years: "2021 - ...",
+                                                    description: "Managing project scope, prioritizing tasks. Managing a team of 20+ people. Organizing release planning.Conducting working meetings. Planning development/analysis/testing sprints in conjunction with team leaders. Identifying technical causes of possible problems for correct maintenance and fixes. Advising on technical issues, mainly related to infrastructure and quality assurance. Estimating the cost of work based on labor estimates from team leaders."
+                                                },
+                                                {
+                                                    position: "Head of QA",
+                                                    company: "Digital Economy League",
+                                                    years: "2019 - 2021",
+                                                    description: "Managing a testing team of 24 people on multiple projects. Preparing testing plan, evaluating and distributing tasks, planning test sprints, planning releases. Preparing test automation plan, evaluating test coverage, code reviews. Load testing: - Analyzing user behavior in Google Analytics - Preparation of scripts - Performing load testing using JMeter. Lead testing specialist Digital Economy League 2018 - 2019 Test automation using technologies: Java, Selenide/Selenium, Allure, Galen, RestAssured, Appium. Performing load testing using JMeter"
+                                                },
+                                                {
+                                                    position: "Senior Testing Specialist",
+                                                    company: "Digital Economy League",
+                                                    years: "2017 - 2018",
+                                                    description: "Test automation of REST API testing, creation and support of Mock services through SoapUI. Autotest development for web using Selenide, Allure, Jenkins. Autotest development for iOS and Android apps using Serenity framework and Appium platform."
+                                                },
+                                                {
+                                                    position: "Testing Engineer",
+                                                    company: "RT Labs",
+                                                    years: "2016 - 2017",
+                                                    description: "Functional and integration testing of the State Services portal and related modules. Testing of the mobile application \"Gosuslugi\". Writing test cases. Support of SoapUI mock services."
+                                                },
+                                                {
+                                                    position: "Duty System Administrator",
+                                                    company: "RT Labs",
+                                                    years: "2013 - 2016",
+                                                    description: "Administration of Linux and windows systems. Monitoring zabbix servers, pNet. Initial troubleshooting. Sanity testing after releases of various systems."
+                                                },
+                                                {
+                                                    position: "System Administrator",
+                                                    company: "Ministry of Justice of Russia in the Voronezh region",
+                                                    years: "2012 - 2013",
+                                                    description: "Maintaining the network infrastructure in working order, installing and configuring the software, maintenance of office equipment, domain system, Microsoft Exchange. Server administration based on Windows Server."
+                                            }
+                                        ]
+                                    },
+                                    tech: {
+                                        title: "Tech",
+                                        items: [
+                                                {
+                                                    tech: "SAP Ecommerce",
+                                                    description: "platform that allows businesses to create and manage online stores to sell their products and services to customers."
+                                                }, 
+                                                {
+                                                    tech: "Apache JMeter",
+                                                    description: "popular open-source performance testing tool used to test the performance and scalability of applications, particularly web applications."
+                                                }, 
+                                                {
+                                                    tech: "Postman",
+                                                    description: " API development and testing tool that allows developers to easily make and manage API requests, view responses, and share and collaborate on API collections with others."
+                                                }, 
+                                                {
+                                                    tech: "Grafana",
+                                                    description: "data visualization and analytics platform that allows users to create, explore, and share interactive, real-time dashboards and graphs for visualizing and analyzing time-series data from various sources."
+                                                }, 
+                                                {
+                                                    tech: "Selenide",
+                                                    description: "is a concise and convenient Java library for writing and running automated tests for web applications, providing a high-level API for writing tests and hiding much of the underlying complexity of web testing."
+                                                }, 
+                                                {
+                                                    tech: "Dynatrace",
+                                                    description: "software intelligence platform that helps organizations to monitor, analyze, and optimize the performance of their digital ecosystems, including cloud-native applications, multi-cloud infrastructures."
+                                                }
+                                            ],
+                                        text: "This section describes the technologies and tools that I have been working with for a long time. "
+                                    },
+                                    skills: {
+                                        title: "Skills",
+                                        text: "This section presents some of the tools I have had the opportunity to work with and an approximate level of mastery of the tool."
+                                    }},
+									ru: {
+										me: {
+                                            name: "Константин Щепкин",
+                                            job: "Head of QA",
+											phone: "+7 (915) 544-54-04"
+                                        }
+									}
+                                
+    };
 
-			if (langParam === 'en') {
-				window.location.href = 'index.html';
-			}
-			if (langParam === 'ru') {
-				window.location.href = 'index-ru.html';
-			}
+    function insertTextData(data) {
+      const elementsWithDataContent = document.querySelectorAll('[data-content]');
+
+      elementsWithDataContent.forEach((element) => {
+        const contentPath = element.dataset.content.split('.');
+        let value = data;
+
+        contentPath.forEach((key) => {
+          value = value[key];
+        });
+
+        element.textContent = value;
+      });
+
+      const educationItemsContainer = document.getElementById('education-items');
+      const educationItems = data.education.items;
+
+      educationItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.years}</strong> - ${item.school}<br>${item.department}`;
+        educationItemsContainer.appendChild(li);
+      });
+
+      const workExperienceItemsContainer = document.getElementById('work-experience-items');
+      const workExperienceItems = data.workExperience.items;
+
+      workExperienceItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.position}</strong>, ${item.company}, ${item.years}<br>${item.description}`;
+		li.innerHTML+=`<hr class="bg-danger border-2 border-top border-danger">`;
+        workExperienceItemsContainer.appendChild(li);
+      });
+      
+	  const techItemsContainer = document.getElementById('tech-items');
+      const techItems = data.tech.items;
+
+      techItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.tech}</strong>: ${item.description}`;
+        techItemsContainer.appendChild(li);
+      });
+    }
+
+    
+
+	function getQueryStringParameter(name) {
+		const urlParams = new URLSearchParams(window.location.search);
+		return urlParams.get(name);
+	}
+
+	function redirectToIndexRu() {
+		const langParam = getQueryStringParameter('lang');
+
+		if (langParam === 'en') {
+			insertTextData(data.en);
 		}
-		redirectToIndexRu();
-	</script>
+		if (langParam === 'ru') {
+			insertTextData(data.ru);
+		}
+		else {
+			insertTextData(data.en);
+		}
+	}
+	redirectToIndexRu();
+</script>
+
 </body>
 
 </html>
+
