@@ -1,0 +1,83 @@
+{
+        
+    en: {
+        about: {
+            title: "ABOUT ME",
+            text: "Hi! I started my career in IT as an administrator, then several positions in QA, including managing a QA team on several projects. Later worked as a project manager for over a year, I have experience in launching a project into productive operation. Currently interested in Quality Assurance positions. I have applied experience in many types of testing, supervised functional, integration, load and automated testing."
+        },
+        education: {
+            title: "EDUCATION",
+            items: [
+                {
+                    years: "2009 - 2013",
+                    school: "Voronezh State Industrial Humanities College",
+                    department: "Department of Computer Engineering, Automated Information Processing and Control Systems"
+                },
+                {
+                    years: "2013 - 2018",
+                    school: "Voronezh State Technical University",
+                    department: "Department of Computing Machines, Complexes, Systems and Networks"
+                }
+            ]
+        },
+        workExperience: {
+            title: "WORK EXPERIENCE",
+            items: [
+                {
+                    position: "Project Manager",
+                    company: "Digital Economy League",
+                    years: "2021 - ...",
+                    description: "Managing project scope, prioritizing tasks. Managing a team of 20+ people. Organizing release planning.Conducting working meetings. Planning development/analysis/testing sprints in conjunction with team leaders. Identifying technical causes of possible problems for correct maintenance and fixes. Advising on technical issues, mainly related to infrastructure and quality assurance. Estimating the cost of work based on labor estimates from team leaders."
+                },
+                {
+                    position: "Head of QA",
+                    company: "Digital Economy League",
+                    years: "2019 - 2021",
+                    description: "Managing a testing team of 24 people on multiple projects. Preparing testing plan, evaluating and distributing tasks, planning test sprints, planning releases. Preparing test automation plan, evaluating test coverage, code reviews. Load testing: - Analyzing user behavior in Google Analytics - Preparation of scripts - Performing load testing using JMeter. Lead testing specialist Digital Economy League 2018 - 2019 Test automation using technologies: Java, Selenide/Selenium, Allure, Galen, RestAssured, Appium. Performing load testing using JMeter"
+                },
+                {
+                    position: "Senior Testing Specialist",
+                    company: "Digital Economy League",
+                    years: "2017 - 2018",
+                    description: "Test automation of REST API testing, creation and support of Mock services through SoapUI. Autotest development for web using Selenide, Allure, Jenkins. Autotest development for iOS and Android apps using Serenity framework and Appium platform."
+                },
+                {
+                    position: "Testing Engineer",
+                    company: "RT Labs",
+                    years: "2016 - 2017",
+                    description: "Functional and integration testing of the State Services portal and related modules. Testing of the mobile application \"Gosuslugi\". Writing test cases. Support of SoapUI mock services."
+                },
+                {
+                    position: "Duty System Administrator",
+                    company: "RT Labs",
+                    years: "2013 - 2016",
+                    description: "Administration of Linux and windows systems. Monitoring zabbix servers, pNet. Initial troubleshooting. Sanity testing after releases of various systems."
+                },
+                {
+                    position: "System Administrator",
+                    company: "Ministry of Justice of Russia in the Voronezh region",
+                    years: "2012 - 2013",
+                    description: "Maintaining the network infrastructure in working order, installing and configuring the software, maintenance of office equipment, domain system, Microsoft Exchange. Server administration based on Windows Server."
+            }
+        ]
+    },
+    tech: {
+        title: "TECH",
+        items: [
+                {
+                    tech: "SAP Ecommerce",
+                    description: "platform that allows businesses to create and manage online stores to sell their products and services to customers."
+                }, 
+                {
+                    tech: "Apache JMeter",
+                    description: "popular open-source performance testing tool..."
+                }
+            ],
+        text: "This section describes the technologies and tools that I have been working with for a long time. SAP Ecommerce - platform that allows businesses to create and manage online stores to sell their products and services to customers. Apache JMeter - popular open-source performance testing tool used to test the performance and scalability of applications, particularly web applications. Postman - API development and testing tool that allows developers to easily make and manage API requests, view responses, and share and collaborate on API collections with others. Selenide - is a concise and convenient Java library for writing and running automated tests for web applications, providing a high-level API for writing tests and hiding much of the underlying complexity of web testing. Dynatrace - software intelligence platform that helps organizations to monitor, analyze, and optimize the performance of their digital ecosystems, including cloud-native applications, multi-cloud infrastructures. Grafana - data visualization and analytics platform that allows users to create, explore, and share interactive, real-time dashboards and graphs for visualizing and analyzing time-series data from various sources."
+    },
+    skills: {
+        title: "SKILLS",
+        text: "This section presents some of the tools I have had the opportunity to work with and an approximate level of mastery of the tool."
+    }}
+
+}

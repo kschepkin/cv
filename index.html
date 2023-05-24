@@ -42,8 +42,8 @@
 							<div id="contact-info" class="contact-info mt-1 mb-0">
 								<p class="mb-2"><img src="assets/images/phone.svg"><a href="#" class="pl-2" data-content="me.phone"></a></p>
 								<p class="mb-2"><img src="assets/images/envelope.svg"><a
-										href="mailto://konstantin.schepkin@gmail.com"
-										class="pl-1">konstantin.schepkin@gmail.com</a></p>
+										href="mailto://"
+										class="pl-1" data-content="me.email"></a></p>
 
 								<div class="social-icons">
 									<ul class="list-unstyled mb-0">
@@ -111,10 +111,9 @@
 
 					<!-- Education-->
 					<div id="education" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
-						<h3 class="mb-2 text-uppercase">Education</h3>
+						<h3 class="mb-2 text-uppercase" data-content="education.title"></h3>
 						<div class="row mt-4 mb-2" id="education-items">
 							
-
 						</div>
 					</div>
 
@@ -122,7 +121,6 @@
 					<div id="job" class="section mt-3 mt-md-5 p-3 p-md-5 rounded">
 						<h3 class="mb-3 text-uppercase" data-content="workExperience.title"></h3>
 						<div class="row mt-4 mb-2" id="work-experience-items">
-							
 
 						</div>
 					</div>
@@ -133,7 +131,6 @@
 						<p data-content="tech.text"></p>
 							<div class="row mt-4 mb-2" id="tech-items">
 							
-
 							</div>
 					</div>
 
@@ -204,7 +201,8 @@
 										me: {
                                             name: "Konstantin Schepkin",
                                             job: "Head of QA",
-											phone: "+7 (915) 544-54-04"
+											phone: "+7 (915) 544-54-04",
+											email: "konstantin.schepkin@gmail.com"
                                         },
                                         about: {
                                             title: "About me",
@@ -215,12 +213,12 @@
                                             items: [
                                                 {
                                                     years: "2009 - 2013",
-                                                    school: "Voronezh State Industrial Humanities College",
+                                                    school: "123Voronezh State Industrial Humanities College",
                                                     department: "Department of Computer Engineering, Automated Information Processing and Control Systems"
                                                 },
                                                 {
                                                     years: "2013 - 2018",
-                                                    school: "Voronezh State Technical University",
+                                                    school: "2Voronezh State Technical University",
                                                     department: "Department of Computing Machines, Complexes, Systems and Networks"
                                                 }
                                             ]
@@ -228,10 +226,16 @@
                                         workExperience: {
                                             title: "Work experience",
                                             items: [
-                                                {
+											{
+                                                    position: "QA Engeneer",
+                                                    company: "Digital Economy League",
+                                                    years: "2023.02 - ...",
+                                                    description: ""
+                                                },
+												{
                                                     position: "Project Manager",
                                                     company: "Digital Economy League",
-                                                    years: "2021 - ...",
+                                                    years: "2021 - 2023.02",
                                                     description: "Managing project scope, prioritizing tasks. Managing a team of 20+ people. Organizing release planning.Conducting working meetings. Planning development/analysis/testing sprints in conjunction with team leaders. Identifying technical causes of possible problems for correct maintenance and fixes. Advising on technical issues, mainly related to infrastructure and quality assurance. Estimating the cost of work based on labor estimates from team leaders."
                                                 },
                                                 {
@@ -303,10 +307,110 @@
 									ru: {
 										me: {
                                             name: "Константин Щепкин",
-                                            job: "Head of QA",
-											phone: "+7 (915) 544-54-04"
-                                        }
-									}
+                                            job: "Руководитель команды QA",
+											phone: "+7 (915) 544-54-04",
+											email: "konstantin.schepkin@gmail.com"
+                                        },
+                                        about: {
+                                            title: "Обо мне",
+                                            text: "Привет! Я начал свою карьеру в сфере IT как администратор, а затем работал на нескольких должностях в области QA, включая управление командой QA на нескольких проектах. Впоследствии я более года работал в качестве менеджера проекта, приобрел опыт запуска проекта в эксплуатацию и на данный момент заинтересован в вакансиях, связанных с обеспечением качества. Имею практический опыт работы со многими видами тестирования и контролировал функциональное, интеграционное, нагрузочное и автоматизированное тестирование."
+                                        },
+                                        education: {
+                                            title: "Образование",
+                                            items: [
+                                                {
+                                                    years: "2009 - 2013",
+                                                    school: "Воронежский промышленно гуманитарный колледж",
+                                                    department: "Department of Computer Engineering, Automated Information Processing and Control Systems"
+                                                },
+                                                {
+                                                    years: "2013 - 2018",
+                                                    school: "Воронежский технический университет",
+                                                    department: "Department of Computing Machines, Complexes, Systems and Networks"
+                                                }
+                                            ]
+                                        },
+                                        workExperience: {
+                                            title: "Опыт работы",
+                                            items: [
+												{
+                                                    position: "Ведущий инженер по тестированию",
+                                                    company: "Лига Цифровой Экономики",
+                                                    years: "2023.02 - ...",
+                                                    description: "Проект связан с проведением нагрузочного тестирования на API мобильного приложения.<br> В основные обязанности входит:<br> - Подготовка документации<br> - Определение сценариев для тестирования<br> - Подготовка скриптов для JMeter<br> - Анализ результатов тестирования<br> - Подготовка отчетной документации по результату проекта."
+                                                },
+												{
+                                                    position: "Менеджер проекта",
+                                                    company: "Лига Цифровой Экономики",
+                                                    years: "2021 - 2023.02",
+                                                    description: "Managing project scope, prioritizing tasks. Managing a team of 20+ people. Organizing release planning.Conducting working meetings. Planning development/analysis/testing sprints in conjunction with team leaders. Identifying technical causes of possible problems for correct maintenance and fixes. Advising on technical issues, mainly related to infrastructure and quality assurance. Estimating the cost of work based on labor estimates from team leaders."
+                                                },
+                                                {
+                                                    position: "Ведущий инженер по тестированию",
+                                                    company: "Лига Цифровой Экономики",
+                                                    years: "2019 - 2021",
+                                                    description: "Управление командой тестирования из 24 человек на нескольких проектах. Подготовка плана тестирования, оценка и распределение задач, планирование спринтов тестирования, планирование релизов. Подготовка плана автоматизации тестирования,оценка покрытия тестами, проверка кода. Нагрузочное тестирование:<br> - Анализ поведения пользователей в Google Analytics<br> - Подготовка сценариев<br> - Выполнение нагрузочного тестирования с использованием JMeter<br>									- Подготовка отчетов"
+                                                },
+                                                {
+                                                    position: "Старший специалист по тестированию",
+                                                    company: "Лига Цифровой Экономики",
+                                                    years: "2017 - 2018",
+                                                    description: "Test automation of REST API testing, creation and support of Mock services through SoapUI. Autotest development for web using Selenide, Allure, Jenkins. Autotest development for iOS and Android apps using Serenity framework and Appium platform."
+                                                },
+                                                {
+                                                    position: "Инженер по тестированию",
+                                                    company: "РТ Лабс",
+                                                    years: "2016 - 2017",
+                                                    description: "Functional and integration testing of the State Services portal and related modules. Testing of the mobile application \"Gosuslugi\". Writing test cases. Support of SoapUI mock services."
+                                                },
+                                                {
+                                                    position: "Дежурный системный администратор",
+                                                    company: "РТ Лабс",
+                                                    years: "2013 - 2016",
+                                                    description: "Administration of Linux and windows systems. Monitoring zabbix servers, pNet. Initial troubleshooting. Sanity testing after releases of various systems."
+                                                },
+                                                {
+                                                    position: "Системный администратор",
+                                                    company: "Министерство юстиции по Воронежской обл.",
+                                                    years: "2012 - 2013",
+                                                    description: "Maintaining the network infrastructure in working order, installing and configuring the software, maintenance of office equipment, domain system, Microsoft Exchange. Server administration based on Windows Server."
+                                            }
+                                        ]
+                                    },
+                                    tech: {
+                                        title: "Технологии",
+                                        items: [
+                                                {
+                                                    tech: "SAP Ecommerce",
+                                                    description: "платформа, позволяющая предприятиям создавать и управлять интернет-магазинами для продажи своих товаров и услуг клиентам."
+                                                }, 
+                                                {
+                                                    tech: "Apache JMeter",
+                                                    description: "популярный инструмент тестирования производительности с открытым исходным кодом, используемый для тестирования производительности и масштабируемости приложений."
+                                                }, 
+                                                {
+                                                    tech: "Postman",
+                                                    description: "инструмент для разработки и тестирования API, позволяющий разработчикам легко создавать и управлять запросами API, просматривать ответы, а также обмениваться коллекциями."
+                                                }, 
+                                                {
+                                                    tech: "Grafana",
+                                                    description: "платформа визуализации данных и аналитики, позволяющая пользователям создавать, исследовать и совместно использовать интерактивные панели и графики реального времени для визуализации и анализа данных временных рядов из различных источников."
+                                                }, 
+                                                {
+                                                    tech: "Selenide",
+                                                    description: "это небольшая и удобная библиотека Java для написания и выполнения автоматизированных тестов для веб-приложений, предоставляющая высокоуровневый API для написания тестов и скрывающая большую часть базовой сложности веб-тестирования."
+                                                }, 
+                                                {
+                                                    tech: "Dynatrace",
+                                                    description: "программная платформа, которая помогает организациям контролировать, анализировать и оптимизировать производительность своих цифровых экосистем, включая облачные нативные приложения, мультиоблачные инфраструктуры."
+                                                }
+                                            ],
+                                        text: "В этом разделе описаны технологии и инструменты, с которыми я работаю уже долгое время."
+                                    },
+                                    skills: {
+                                        title: "Навыки",
+                                        text: "В этом разделе представлены некоторые инструменты, с которыми мне довелось работать, и примерный уровень владения ими."
+                                    }}
                                 
     };
 
@@ -330,6 +434,7 @@
       educationItems.forEach((item) => {
         const li = document.createElement('li');
         li.innerHTML = `<strong>${item.years}</strong> - ${item.school}<br>${item.department}`;
+
         educationItemsContainer.appendChild(li);
       });
 
@@ -338,7 +443,7 @@
 
       workExperienceItems.forEach((item) => {
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${item.position}</strong>, ${item.company}, ${item.years}<br>${item.description}`;
+        li.innerHTML = `<strong>${item.position}</strong> <p style="margin-left: 1%;">${item.company}, ${item.years}</p>  <p>${item.description}</p>`;
 		li.innerHTML+=`<hr class="bg-danger border-2 border-top border-danger">`;
         workExperienceItemsContainer.appendChild(li);
       });
@@ -349,6 +454,7 @@
       techItems.forEach((item) => {
         const li = document.createElement('li');
         li.innerHTML = `<strong>${item.tech}</strong>: ${item.description}`;
+		li.innerHTML+=`<hr class="bg-danger border-2 border-top border-danger">`;
         techItemsContainer.appendChild(li);
       });
     }
@@ -360,23 +466,17 @@
 		return urlParams.get(name);
 	}
 
-	function redirectToIndexRu() {
+	function setLang() {
 		const langParam = getQueryStringParameter('lang');
-
-		if (langParam === 'en') {
-			insertTextData(data.en);
-		}
-		if (langParam === 'ru') {
-			insertTextData(data.ru);
-		}
-		else {
-			insertTextData(data.en);
-		}
-	}
-	redirectToIndexRu();
+      if (langParam === 'ru' && data.ru) {
+        insertTextData(data.ru);
+      } else {
+        insertTextData(data.en);
+      }
+    }
+	setLang();
 </script>
 
 </body>
 
 </html>
-

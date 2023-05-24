@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+</head>
+<body>
+  <section id="about">
+    <h2 data-content="about.title"></h2>
+    <p data-content="about.text"></p>
+  </section>
+
+  <section id="education">
+    <h2 data-content="education.title"></h2>
+    <ul id="education-items"></ul>
+  </section>
+
+  <section id="work-experience">
+    <h2 data-content="workExperience.title"></h2>
+    <ul id="work-experience-items"></ul>
+  </section>
+
+  <section id="tech">
+    <h2 data-content="tech.title"></h2>
+    <ul id="tech-items"></ul>
+    <p data-content="tech.text"></p>
+  </section>
+
+  <section id="skills">
+    <h2 data-content="skills.title"></h2>
+    <p data-content="skills.text"></p>
+  </section>
+
+
+
+  <script>
+    
+
+    async function fetchData() {
+      try {
+        const response = await fetch('data.json');
+        const data = await response.json();
+        insertTextData(data.en);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+
+    function insertTextData(data) {
+      const elementsWithDataContent = document.querySelectorAll('[data-content]');
+
+      elementsWithDataContent.forEach((element) => {
+        const contentPath = element.dataset.content.split('.');
+        let value = data;
+
+        contentPath.forEach((key) => {
+          value = value[key];
+        });
+
+        element.textContent = value;
+      });
+
+      const educationItemsContainer = document.getElementById('education-items');
+      const educationItems = data.education.items;
+
+      educationItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.years}</strong> - ${item.school}<br>${item.department}`;
+        educationItemsContainer.appendChild(li);
+      });
+
+      const workExperienceItemsContainer = document.getElementById('work-experience-items');
+      const workExperienceItems = data.workExperience.items;
+
+      workExperienceItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.position}</strong>, ${item.company}, ${item.years}<br>${item.description}`;
+        workExperienceItemsContainer.appendChild(li);
+      });
+      const techItemsContainer = document.getElementById('tech-items');
+      const techItems = data.tech.items;
+
+      techItems.forEach((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<strong>${item.tech}</strong>: ${item.description}`;
+        techItemsContainer.appendChild(li);
+      });
+    }
+
+    insertTextData(data.en);
+  </script>
+</body>
+</html>
