@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - QA TeamLead</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+            a:link { color: gray;};
+            a:visited {color: black;};
+            a:active {color: black;};
+            a:hover { color: red;};
+        }
+        .header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            gap: 20px;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .header-info {
+            flex-grow: 1;
+        }
+        .header-info h1 {
+            margin: 0 0 10px 0;
+            font-size: 32px;
+            color: #000;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .experience-item {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+        .experience-item h3 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-size: 1.2em;
+        }
+        .experience-item .period {
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .experience-item ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .experience-item li {
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background-color: #e8f4fc;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.95em;
+            color: #2c3e50;
+            border: 1px solid #bde0fe;
+        }
+        .about-me {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .key-achievement {
+            background-color: #e8f6f3;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/me.jpeg" alt="Profile Photo" class="profile-image">
+        <div class="header-info">
+            <h1>Konstantin Schepkin – QA TeamLead</h1>
+            <div class="contact-info">
+                <p>📱 +7 (915) 544 54 04 / +34 658 045 756</p>
+                <p>📧 <a href="mailto:konstantin.schepkin@gmail.com">konstantin.schepkin@gmail.com</a></p>  
+                <p>🔗 LinkedIn: <a href="https://linkedin.com/in/kschepkin/">linkedin.com/in/kschepkin/</a></p>
+                <p>📍 Location: Spain</p>
+                <p>🌍 Remote Work</p>
+                <p><svg height="20" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="20" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+    <path d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"></path>
+</svg> Github: <a href="https://github.com/kschepkin/">github.com/kschepkin/</a></p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <div class="about-me">
+            <p>I started my IT career as an administrator and then transitioned to QA roles, where I managed teams on several projects. As a project manager, I gained experience managing a large team and successfully launched a project. Currently, I lead a QA Center of Excellence and serve as a team lead on an e-commerce project.<br>
+            I have extensive experience in integration, load, and automated testing.<br>
+            Currently focusing on the role of QA Team Lead with the goal of ensuring quality across the entire team. Interested in further development and deepening expertise in this area.</p>
+            <div class="highlight">
+                Key competencies:
+                <ul>
+                    <li>Managing teams of up to 30 specialists</li>
+                    <li>Building testing processes from scratch</li>
+                    <li>Load testing</li>
+                    <li>Test automation for web and mobile applications</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        
+        <div class="experience-item">
+            <h3>QA Team Lead</h3>
+            <div class="period">March 2023 — Present | Digital Economy League</div>
+            <div class="key-achievement">
+                <strong>Key achievements:</strong>
+                <ul>
+                    <li>Implemented a task distribution system that reduced team idle time by 40%</li>
+                    <li>Created a competency matrix and system of interchangeability in a team of 13 people</li>
+                    <li>Optimized QA processes, leading to a 30% increase in release speed</li>
+                </ul>
+            </div>
+            <p><strong>Main responsibilities:</strong></p>
+            <ul>
+                <li>Leading testing of mobile (iOS/Android) and web applications on the SAP Ecommerce platform</li>
+                <li>Developing testing strategies and quality assurance processes</li>
+                <li>Integration testing</li>
+                <li>Organization of test automation</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Project Manager</h3>
+            <div class="period">March 2021 — February 2023 | Digital Economy League</div>
+            <div class="key-achievement">
+                <strong>Key achievements:</strong>
+                <ul>
+                    <li>Successfully managed a team of 20+ specialists</li>
+                    <li>Implemented an effective effort estimation system</li>
+                </ul>
+            </div>
+            <p><strong>Main responsibilities:</strong></p>
+            <ul>
+                <li>Organization of development and testing processes</li>
+                <li>Release management and sprint planning</li>
+                <li>Technical problem solving and consulting</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>QA Group Lead</h3>
+            <div class="period">January 2019 — March 2021 | Digital Economy League</div>
+            <div class="key-achievement">
+                <strong>Key achievements:</strong>
+                <ul>
+                    <li>Developed and implemented test automation strategy</li>
+                    <li>Optimized load testing processes</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <h3>Lead QA Specialist → Senior QA Specialist</h3>
+            <div class="period">April 2017 — January 2019 | Digital Economy League</div>
+            <div class="key-achievement">
+                <strong>Technical achievements:</strong>
+                <ul>
+                    <li>Implemented GitFlow methodology for automated test code management</li>
+                    <li>Developed and maintained automated tests for web and mobile applications</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <h3>System Administrator → QA Engineer</h3>
+            <div class="period">July 2012 — April 2017 | RT Labs, JSC</div>
+            <p>Progressed from System Administrator to QA Engineer:</p>
+            <ul>
+                <li>Worked with monitoring systems</li>
+                <li>Maintained infrastructure in working condition</li>
+                <li>Conducted manual and integration testing of payment system</li>
+                <li>Created and maintained Mock services for integration testing</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>Selenium</li>
+            <li>Appium</li>
+            <li>Jenkins</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>SQL</li>
+            <li>Apache Solr</li>
+            <li>Apache Kafka</li>
+            <li>RabbitMQ</li>
+            <li>API Testing</li>
+            <li>Mobile Testing</li>
+            <li>Performance Testing</li>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="experience-item">
+            <h3>Higher Education</h3>
+            <div class="period">2018 | Voronezh State Technical University</div>
+            <p>Computing Machines, Complexes, Systems and Networks</p>
+        </div>
+
+        <div class="experience-item">
+            <div class="period">2013 | Voronezh State Industrial and Humanitarian College</div>
+            <p>Automated Information Processing and Control Systems</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Certification and Additional Education</h2>
+        <ul class="skills-list">
+            <li>English.Tochka (2018)</li>
+            <li>WordPress Web Development (2017)</li>
+            <li>OOP Programming (2012)</li>
+        </ul>
+    </div>
+</body>
+</html>
